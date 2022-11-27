@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  display: inline;
+  height: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  margin-top: 10px;
+}
+
+.innerContainer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+.stackSpan {
+  padding: 5px 0;
+  height: 20px;
+  backface-visibility: hidden;
+  font-weight: 300;
+  min-width: max-content;
+}
