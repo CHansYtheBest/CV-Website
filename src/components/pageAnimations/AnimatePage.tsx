@@ -7,9 +7,9 @@ export default function AnimatePage(props: any) {
   let location = useLocation();
   return (
     <AnimatePresence mode="wait" initial={false}>
-      <div key={location.pathname}>
+      <div key={location.pathname} style={{ width: "100%", height: "100%" }}>
         <PageChangeAnimation />
-        <div>{props.children}</div>
+        {props.children}
       </div>
     </AnimatePresence>
   );

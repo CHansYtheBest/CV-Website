@@ -42,7 +42,7 @@ export default function TextSlotsAnimation() {
           onAnimationComplete={whenAnimationEnded}
           initial={{ y: 0 }}
           animate={controls}
-          transition={{ duration: 4, type: "spring", stiffness: 500, damping: 0 }}
+          transition={{ y: { duration: 4, type: "tween" } }}
         >
           {spansArr}
         </motion.div>

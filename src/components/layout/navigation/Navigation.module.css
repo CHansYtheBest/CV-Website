@@ -1,11 +1,11 @@
 .navigationContainer {
   height: 60%;
-  background-color: #005c53;
+  background-color: var(--main);
   border-radius: 0 10px 10px 0;
-  border: solid black;
+  border: solid var(--outerBorder);
   border-width: 1px 1px 1px 0px;
   margin-left: 1px;
-  color: white;
+  color: var(--textColor);
   z-index: 2;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -25,5 +25,5 @@
 }
 
 .buttonContainer img {
-  filter: invert(100%) sepia(0%) saturate(24%) hue-rotate(114deg) brightness(108%) contrast(108%);
+  filter: var(--textColorFilter);
 }

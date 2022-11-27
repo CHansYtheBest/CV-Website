@@ -1,15 +1,15 @@
 .userCardContainer {
   height: 60%;
   border-radius: 10px 0 0 10px;
-  border: solid black;
+  border: solid var(--outerBorder);
   border-width: 1px 0px 1px 1px;
   min-width: 150px;
   margin-right: -1px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #005c53;
-  color: white;
+  background-color: var(--main);
+  color: var(--textColor);
   z-index: 2;
 }
 
@@ -28,7 +28,6 @@
 
 .contactInfo img {
   height: 20px;
-  width: 20px;
   margin-right: 5px;
-  filter: invert(100%) sepia(0%) saturate(24%) hue-rotate(114deg) brightness(108%) contrast(108%);
+  filter: var(--textColorFilter);
 }

@@ -11,7 +11,7 @@ export default function UserCard() {
   return (
     <section className={s.userCardContainer}>
       <Container sx={{ flexDirection: "column", display: "flex", alignItems: "center", mt: "30px" }}>
-        <Avatar alt="Maxim Chibotaru" src={avatar} sx={{ width: "100px", height: "100px", border: "1px solid white" }} />
+        <Avatar alt="Maxim Chibotaru" src={avatar} sx={{ width: "100px", height: "100px", border: "1px solid var(--innerBorder)" }} />
         <Typography variant="h5" component="h1" sx={{ fontWeight: 500, textAlign: "center", mt: "10px" }}>
           Maxim Chibotaru
         </Typography>
