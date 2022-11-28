@@ -2,7 +2,7 @@ import React from "react";
 import s from "./PageComponents.module.css";
 
 interface ContainerProps {
-  children: any;
+  children: React.ReactNode;
   className?: string;
 }
 

@@ -1,17 +1,22 @@
 .aboutPageGrid {
-  grid-template-rows: max-content 1fr 1fr;
+  grid-template-rows: max-content 0.8fr 1fr;
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
-  row-gap: 30px;
+  row-gap: 20px;
   grid-template-areas:
     "pageHeader pageHeader"
     "summary aboutInfo"
     "whatIDo whatIDo";
 }
 
+.sectionMotion {
+  display: contents;
+}
+
 .summaryContainer {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .summaryTextContainer {
@@ -23,6 +28,7 @@
 .infoContainer {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .infoTextContainer {
@@ -45,4 +51,24 @@
 
 .infoTextColored {
   color: var(--accent);
+}
+
+.whatIdoCard {
+  width: 100%;
+  position: relative;
+}
+
+.whatIdoBackground {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+}
+
+.whatIdoHeding {
+  margin-bottom: 30px;
+}
+
+.whatIdoSVG img {
+  filter: var(--accentFilter);
+  object-fit: contain !important;
 }

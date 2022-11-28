@@ -3,7 +3,7 @@ import React from "react";
 import s from "./PageComponents.module.css";
 
 interface HeadingProps {
-  children: any;
+  children: React.ReactNode;
 }
 
 const PageHeading: React.FC<HeadingProps> = (props) => {
