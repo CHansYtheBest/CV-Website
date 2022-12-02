@@ -1,0 +1,202 @@
+.resumePageGrid {
+  grid-template-rows: max-content max-content max-content max-content;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+  grid-template-areas:
+    "pageHeader pageHeader"
+    "education education"
+    "workExperience workExperience"
+    "skills skills";
+}
+
+/* Education */
+
+.educationContent {
+  margin: 20px 10px 60px 10px;
+  display: grid;
+  grid-template-columns: max-content 1fr max-content 1fr max-content;
+  justify-content: space-between;
+}
+
+.educationDevider {
+  align-self: center;
+  border-color: black !important;
+  margin: 0 15px !important;
+}
+
+.educationButtonOuterContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.educationButtonInnerContainer {
+  position: absolute;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.educationButtonInnerContainer p {
+  margin: 0;
+}
+
+.educationButtonInnerContainer p:last-child {
+  opacity: 0.5;
+}
+
+/* Work Expirience */
+
+.workHeading {
+  margin-bottom: 20px;
+}
+
+.workButtonOuterContainer {
+  position: relative;
+}
+
+.workButtonInnerContainer {
+  position: absolute;
+  margin: 15px 0px 0px 40px;
+  width: 50vw;
+}
+
+.workButtonInnerContainer ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.workButtonInnerContainer p {
+  margin: 0;
+}
+
+.workDevider {
+  margin: 15px 25px;
+}
+
+.workDevider hr {
+  border-color: black;
+}
+
+/* Skills */
+
+.skillsContainer {
+  margin: 20px 10px;
+  display: flex;
+}
+
+.skillsCardOuter {
+  width: 100%;
+  position: relative;
+}
+
+.skillsCard {
+  position: relative;
+  height: 100%;
+  border: 1px rgb(228, 228, 228) solid;
+}
+
+.skillsCardOuter:first-child .skillsCard {
+  border-radius: 5px 0 0 5px;
+}
+
+.skillsCardOuter:nth-child(2) .skillsCard {
+  border-radius: 0;
+}
+
+.skillsCardOuter:last-child .skillsCard {
+  border-radius: 0 5px 5px 0;
+}
+
+.skillsCardTitle {
+  top: -12px;
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+}
+
+.skillsCardTitleInner {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.skillsCardTitle h5 {
+  text-transform: uppercase;
+  height: fit-content;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 0 10px;
+}
+
+.skillsCardContainer {
+  margin: 30px 20px 20px 20px;
+}
+
+.codingProgressContainer p {
+  margin: 0;
+  color: black;
+}
+
+.knowledgeListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.knowledgeList {
+  padding-left: 20px;
+  width: fit-content;
+}
+
+.knowledgeList li {
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+.knowledgeList li:last-child {
+  margin-bottom: 0px;
+}
+
+/* Collapseble Button styles */
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  height: max-content;
+}
+
+.animatedButton {
+  background: var(--accent);
+  z-index: 5;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.animatedButton img {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+}
+
+.animatedButton h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 0 0 10px;
+  font-weight: 500;
+  color: var(--textColor);
+  height: fit-content;
+}
+
+.buttonContents {
+  width: 100%;
+}

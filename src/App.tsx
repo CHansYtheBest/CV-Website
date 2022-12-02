@@ -5,6 +5,7 @@ import Background from "./components/layout/Background";
 import ContentContainer from "./components/layout/ContentContainer";
 import AnimatePage from "./components/pageAnimations/AnimatePage";
 import AboutPage from "./components/pages/aboutPage/AboutPage";
+import ResumePage from "./components/pages/resumePage/ResumePage";
 
 function App() {
   return (
@@ -19,7 +20,14 @@ function App() {
               </AnimatePage>
             }
           />
-          <Route path="/resume" element={<AnimatePage>RESUME</AnimatePage>} />
+          <Route
+            path="/resume"
+            element={
+              <AnimatePage>
+                <ResumePage />
+              </AnimatePage>
+            }
+          />
           <Route path="/works" element={<AnimatePage>WORKS</AnimatePage>} />
           <Route path="/contact" element={<AnimatePage>CONTACT</AnimatePage>} />
         </Route>
