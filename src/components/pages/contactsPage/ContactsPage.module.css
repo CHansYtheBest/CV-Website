@@ -1,0 +1,48 @@
+.contactsPageGrid {
+  grid-template-rows: max-content max-content max-content;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  grid-template-areas:
+    "pageHeader pageHeader"
+    "stayInTouch stayInTouch"
+    "contactForm contactForm";
+}
+
+.stayInTouchContainer {
+  margin: 0 10px;
+}
+
+.stayInTouchCardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stayInTouchCard {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.stayInTouchCard img {
+  margin-right: 5px;
+}
+
+.stayInTouchCard span {
+  font-weight: 500;
+  color: var(--accent);
+  margin-left: 5px;
+}
+
+.contactFormGrid {
+  display: grid;
+  margin-top: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-template-areas:
+    "name email"
+    "message message"
+    "none button";
+}
