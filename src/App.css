@@ -44,6 +44,10 @@ body {
   z-index: 99;
 }
 
+.noScroll {
+  overflow-y: hidden !important;
+}
+
 /* BG Animation */
 
 .light {

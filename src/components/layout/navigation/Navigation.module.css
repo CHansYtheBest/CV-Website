@@ -6,9 +6,9 @@
   border-width: 1px 1px 1px 0px;
   margin-left: 1px;
   color: var(--textColor);
-  z-index: 2;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  z-index: 1;
 }
 
 .buttonContainer {

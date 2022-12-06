@@ -7,6 +7,7 @@ import AnimatePage from "./components/pageAnimations/AnimatePage";
 import AboutPage from "./components/pages/aboutPage/AboutPage";
 import ContactsPage from "./components/pages/contactsPage/ContactsPage";
 import ResumePage from "./components/pages/resumePage/ResumePage";
+import WorksPage from "./components/pages/worksPage/WorksPage";
 
 function App() {
   return (
@@ -29,7 +30,14 @@ function App() {
               </AnimatePage>
             }
           />
-          <Route path="/works" element={<AnimatePage>WORKS</AnimatePage>} />
+          <Route
+            path="/works"
+            element={
+              <AnimatePage>
+                <WorksPage />
+              </AnimatePage>
+            }
+          />
           <Route
             path="/contact"
             element={

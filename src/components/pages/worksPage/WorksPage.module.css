@@ -1,0 +1,73 @@
+.worksPageGrid {
+  grid-template-rows: max-content max-content;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  grid-template-areas:
+    "pageHeader pageHeader"
+    "worksPage worksPage";
+}
+
+.worksCard {
+  display: flex;
+}
+
+.worksCard img {
+  height: 120px;
+  margin-right: 20px;
+}
+
+.worksCardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.worksCardContainer h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.worksCardContainer p {
+  margin: 10px 0;
+}
+
+.worksCardButton {
+  margin-top: auto !important;
+  align-self: flex-end;
+  background-color: var(--accent) !important;
+  color: white !important;
+}
+
+.backdrop {
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #00000077;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  z-index: 99;
+  width: clamp(50%, 700px, 90%);
+  height: fit-content;
+  margin: auto;
+  padding: 0 2rem;
+  border-radius: 10px;
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.card + .card {
+  margin-top: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}

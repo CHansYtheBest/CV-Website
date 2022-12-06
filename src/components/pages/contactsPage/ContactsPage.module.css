@@ -2,13 +2,20 @@
   grid-template-rows: max-content max-content max-content;
   grid-template-columns: 1fr 1fr;
   row-gap: 40px;
+  position: relative;
   grid-template-areas:
     "pageHeader pageHeader"
     "stayInTouch stayInTouch"
     "contactForm contactForm";
 }
 
+.contactsPageBG {
+  position: absolute;
+  z-index: 1;
+}
+
 .stayInTouchContainer {
+  z-index: 2;
   margin: 0 10px;
 }
 
@@ -24,6 +31,7 @@
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
+  border: 1px rgb(228, 228, 228) solid;
 }
 
 .stayInTouchCard img {
@@ -39,10 +47,29 @@
 .contactFormGrid {
   display: grid;
   margin-top: 20px;
-  row-gap: 20px;
+  row-gap: 10px;
   column-gap: 20px;
   grid-template-areas:
     "name email"
     "message message"
     "none button";
+}
+
+.contactFormButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contactFormButton {
+  background-color: var(--accent) !important;
+  color: white !important;
+}
+
+.disabled {
+  border: 1px solid #a3a3a3 !important;
+  background-color: #a3a3a3 !important;
+}
+
+.contactAlert {
+  margin-top: 10px;
 }

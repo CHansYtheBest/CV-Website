@@ -10,7 +10,7 @@
   justify-content: space-between;
   background-color: var(--main);
   color: var(--textColor);
-  z-index: 2;
+  z-index: 1;
 }
 
 .contactInfoContainer {
