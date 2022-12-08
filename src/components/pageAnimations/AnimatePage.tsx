@@ -6,15 +6,21 @@ import PageChangeAnimation from "./PageChangeAnimation";
 
 export default function AnimatePage(props: any) {
   let location = useLocation();
+  console.log(location);
+
   let { top, scrollElement } = useContext(ScrollContext);
+
+  let scrollToTop = () => {
+    if (scrollElement !== null) {
+      scrollElement.scrollTo(0, 0);
+    }
+  };
 
   useEffect(() => {
     setTimeout(() => {
-      if (scrollElement !== null) {
-        scrollElement.scrollTo(0, 0);
-      }
+      scrollToTop();
     }, 500);
-  }, [location, scrollElement]);
+  }, [location.pathname]);
 
   return (
     <AnimatePresence mode="wait" initial={false}>

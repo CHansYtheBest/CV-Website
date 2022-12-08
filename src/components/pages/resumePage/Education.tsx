@@ -35,10 +35,10 @@ export function Education() {
             </div>
           </CollapsebleButton>
           <Divider className={s.educationDevider} />
-          <CollapsebleButton title="ANO PO MOKIT" svg={EducationSVG} index={2} opened={opened} setOpened={setOpened}>
+          <CollapsebleButton title="ANO PO MRKIT" svg={EducationSVG} index={2} opened={opened} setOpened={setOpened}>
             <div className={s.educationButtonOuterContainer}>
               <div className={s.educationButtonInnerContainer}>
-                <b>PROGRAMMER DEGREE</b>
+                <b>IT AND PROGRAMMING DEGREE</b>
                 <p>PODOLSK, RUSSIA</p>
                 <p className={s.greyText}>2018-2022</p>
               </div>
