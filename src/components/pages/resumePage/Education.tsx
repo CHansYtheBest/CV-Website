@@ -20,7 +20,7 @@ export function Education() {
               <div className={s.educationButtonInnerContainer}>
                 <b>GED</b>
                 <p>DROCHIA, MOLDOVA</p>
-                <p>2009-2017</p>
+                <p className={s.greyText}>2009-2017</p>
               </div>
             </div>
           </CollapsebleButton>
@@ -30,7 +30,7 @@ export function Education() {
               <div className={s.educationButtonInnerContainer}>
                 <b>GED</b>
                 <p>PODOLSK, RUSSIA</p>
-                <p>2017-2018</p>
+                <p className={s.greyText}>2017-2018</p>
               </div>
             </div>
           </CollapsebleButton>
@@ -38,9 +38,9 @@ export function Education() {
           <CollapsebleButton title="ANO PO MOKIT" svg={EducationSVG} index={2} opened={opened} setOpened={setOpened}>
             <div className={s.educationButtonOuterContainer}>
               <div className={s.educationButtonInnerContainer}>
-                <b>DEVELOPER DEGREE</b>
+                <b>PROGRAMMER DEGREE</b>
                 <p>PODOLSK, RUSSIA</p>
-                <p>2018-2022</p>
+                <p className={s.greyText}>2018-2022</p>
               </div>
             </div>
           </CollapsebleButton>

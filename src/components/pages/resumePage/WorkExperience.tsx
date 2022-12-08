@@ -11,10 +11,10 @@ function InnerWorkCollapsebleButton(props: any) {
   const buttonRef = useRef<any>(null);
 
   useEffect(() => {
-    if (buttonRef.current.clientHeight !== props.deviderHeights[props.index]) {
-      let newHeights = [...props.deviderHeights];
+    if (buttonRef.current.clientHeight !== props.dividerHeights[props.index]) {
+      let newHeights = [...props.dividerHeights];
       newHeights[props.index] = buttonRef.current.clientHeight;
-      props.setDeviderHeights(newHeights);
+      props.setDividerHeights(newHeights);
     }
   }, [props]);
 
@@ -37,7 +37,7 @@ function WorkCollapsebleButton(props: any) {
       opened={props.opened}
       setOpened={props.setOpened}
     >
-      <InnerWorkCollapsebleButton index={props.index} deviderHeights={props.deviderHeights} setDeviderHeights={props.setDeviderHeights}>
+      <InnerWorkCollapsebleButton index={props.index} dividerHeights={props.dividerHeights} setDividerHeights={props.setDividerHeights}>
         {props.children}
       </InnerWorkCollapsebleButton>
     </CollapsebleButton>
@@ -46,7 +46,7 @@ function WorkCollapsebleButton(props: any) {
 
 export function WorkExperience() {
   const [opened, setOpened] = useState<false | number>(0);
-  const [deviderHeights, setDeviderHeights] = useState<number[]>([0, 0]);
+  const [dividerHeights, setDividerHeights] = useState<number[]>([0, 0]);
 
   return (
     <SectionContainer gridArea="workExperience">
@@ -56,8 +56,8 @@ export function WorkExperience() {
           title="Moskovskiy Zavod «Fizpribor»"
           opened={opened}
           setOpened={setOpened}
-          deviderHeights={deviderHeights}
-          setDeviderHeights={setDeviderHeights}
+          dividerHeights={dividerHeights}
+          setDividerHeights={setDividerHeights}
           index={0}
         >
           <b>Website Developer</b>
@@ -67,23 +67,23 @@ export function WorkExperience() {
             <li>Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding.</li>
             <li>Provided front-end website development using WordPress.</li>
           </ul>
-          <p>MARCH 2022 - JUNE 2022</p>
-          <p>PODOLSK, RUSSIA</p>
+          <p className={s.greyText}>MARCH 2022 - JUNE 2022</p>
+          <p className={s.greyText}>PODOLSK, RUSSIA</p>
         </WorkCollapsebleButton>
         <motion.div
           className={s.workDevider}
           style={{ width: 0 }}
-          animate={{ height: opened === 0 || opened === false ? `${deviderHeights[0]}px` : "0px" }}
+          animate={{ height: opened === 0 || opened === false ? `${dividerHeights[0]}px` : "0px" }}
           transition={{ ease: "easeOut" }}
         >
           <Divider orientation="vertical" />
         </motion.div>
         <WorkCollapsebleButton
-          title="McDonalds"
+          title="McDonald's"
           opened={opened}
           setOpened={setOpened}
-          deviderHeights={deviderHeights}
-          setDeviderHeights={setDeviderHeights}
+          dividerHeights={dividerHeights}
+          setDividerHeights={setDividerHeights}
           index={1}
         >
           <b>Fast Food Employee</b>
@@ -91,13 +91,13 @@ export function WorkExperience() {
             <li>Accurately operated cash register to process customer payments..</li>
             <li>Greeted customers promptly and took orders to keep flow of traffic moving.</li>
           </ul>
-          <p>MARCH 2022 - JUNE 2022</p>
-          <p>PODOLSK, RUSSIA</p>
+          <p className={s.greyText}>MARCH 2022 - JUNE 2022</p>
+          <p className={s.greyText}>PODOLSK, RUSSIA</p>
         </WorkCollapsebleButton>
         <motion.div
           className={s.workDevider}
           style={{ width: 0 }}
-          animate={{ height: opened === 1 ? `${deviderHeights[1]}px` : "0px" }}
+          animate={{ height: opened === 1 ? `${dividerHeights[1]}px` : "0px" }}
           transition={{ ease: "easeOut" }}
         >
           <Divider orientation="vertical" />

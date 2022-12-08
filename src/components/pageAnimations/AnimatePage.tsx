@@ -14,7 +14,7 @@ export default function AnimatePage(props: any) {
         scrollElement.scrollTo(0, 0);
       }
     }, 500);
-  }, [location]);
+  }, [location, scrollElement]);
 
   return (
     <AnimatePresence mode="wait" initial={false}>

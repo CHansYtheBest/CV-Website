@@ -1,7 +1,7 @@
 .worksPageGrid {
   grid-template-rows: max-content max-content;
   grid-template-columns: 1fr 1fr;
-  row-gap: 40px;
+  row-gap: 20px;
   grid-template-areas:
     "pageHeader pageHeader"
     "worksPage worksPage";
@@ -13,12 +13,16 @@
 
 .worksCard img {
   height: 120px;
+  width: 250px;
   margin-right: 20px;
+  border: 1px rgb(228, 228, 228) solid;
+  border-radius: 4px;
 }
 
 .worksCardContainer {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .worksCardContainer h3 {
@@ -52,16 +56,65 @@
 
 .modal {
   z-index: 99;
-  width: clamp(50%, 700px, 90%);
-  height: fit-content;
+  width: clamp(70%, 850px, 90%);
+  height: 85%;
   margin: auto;
   padding: 0 2rem;
   border-radius: 10px;
   border: black solid 1px;
+  background-color: #ffffff;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.modalCloseButton {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+.modalCloseButton:hover {
+  background-color: rgb(223, 0, 0);
+  color: white;
+  transition: 0.2s;
+}
+
+.modalInnerContainer {
+  margin: 40px 20px;
+}
+
+.modalContent {
+  margin: 0 10px;
+}
+
+.modalTitle {
+  margin-bottom: 10px !important;
+}
+
+.modalImg {
+  margin: 20px 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #ffffff;
+}
+
+.modalImg img {
+  border: var(--lightBorder);
+}
+
+.modalImg p {
+  margin-left: 10px;
+}
+
+.card {
+  border: var(--lightBorder);
 }
 
 .card + .card {

@@ -1,7 +1,7 @@
 .contactsPageGrid {
   grid-template-rows: max-content max-content max-content;
   grid-template-columns: 1fr 1fr;
-  row-gap: 40px;
+  row-gap: 20px;
   position: relative;
   grid-template-areas:
     "pageHeader pageHeader"
@@ -16,7 +16,7 @@
 
 .stayInTouchContainer {
   z-index: 2;
-  margin: 0 10px;
+  margin: 0 10px 20px 10px;
 }
 
 .stayInTouchCardContainer {
@@ -31,7 +31,7 @@
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
-  border: 1px rgb(228, 228, 228) solid;
+  border: var(--lightBorder);
 }
 
 .stayInTouchCard img {

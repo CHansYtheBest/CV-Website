@@ -17,13 +17,12 @@ function ContactsPage() {
       <PageContainer className={s.contactsPageGrid}>
         <PageHeading>Contacts page</PageHeading>
         <SectionContainer gridArea="stayInTouch">
-          <motion.div className={s.infoContainer} initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }}>
+          <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }}>
             <SectionHeading>Stay In Touch</SectionHeading>
             <div className={s.stayInTouchContainer}>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Hello! If you want to contact me feel free to use the contact form below, or send me a message to any of my social media accounts. My
+                timezone is EET.
               </p>
               <div className={s.stayInTouchCardContainer}>
                 <Card component="a" href="https://github.com/CHansYtheBest" className={s.stayInTouchCard}>

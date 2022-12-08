@@ -1,5 +1,5 @@
 .aboutPageGrid {
-  grid-template-rows: max-content 0.8fr 1fr;
+  grid-template-rows: max-content max-content max-content;
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
   row-gap: 20px;
@@ -16,7 +16,7 @@
 }
 
 .summaryTextContainer {
-  margin: auto 10px;
+  margin: 20px 10px;
   font-size: 18px !important;
   line-height: 1.7 !important;
 }
@@ -30,27 +30,26 @@
 .infoTextContainer {
   list-style: none;
   padding: 0;
-  margin: auto 10px;
+  margin: 20px 10px;
   text-transform: uppercase;
   font-weight: 400;
 }
 
-.infoText {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+.infoText span + span {
+  margin-left: 10px;
 }
 
-.infoText:last-child {
-  margin-bottom: 0;
+.infoText + .infoText {
+  margin-top: 20px;
 }
 
 .infoTextColored {
   color: var(--accent);
+  font-weight: 500;
 }
 
 .whatIdoCard {
-  border: 1px rgb(228, 228, 228) solid;
+  border: var(--lightBorder);
   width: 100%;
   position: relative;
 }

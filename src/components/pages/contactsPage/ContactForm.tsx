@@ -111,7 +111,7 @@ export function ContactForm() {
                   <Button
                     className={s.contactFormButton}
                     type="submit"
-                    disabled={!formik.isValid || formik.isSubmiting}
+                    disabled={!formik.isValid || formik.isSubmitting}
                     classes={{ disabled: s.disabled }}
                     variant="contained"
                   >

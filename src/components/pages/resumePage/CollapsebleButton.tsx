@@ -24,8 +24,8 @@ const CollapsebleButton: React.FC<ButtonProps> = (props) => {
   };
 
   const buttonVariants = {
-    open: { paddingLeft: "10px", width: "fit-content", transition: { delay: 0 } },
-    collapsed: { paddingLeft: "20px", width: "30px", transition: { delay: 0.2 } },
+    open: { paddingLeft: "10px", paddingRight: "10px", width: "fit-content", transition: { delay: 0 } },
+    collapsed: { paddingLeft: "20px", paddingRight: "20px", width: "30px", transition: { delay: 0.2 } },
   };
 
   const contentsVariants =
@@ -42,6 +42,8 @@ const CollapsebleButton: React.FC<ButtonProps> = (props) => {
   return (
     <div className={s.buttonContainer}>
       <motion.div
+        whileHover={{ boxShadow: "rgba(0, 0, 0, 0.3) 0px 4px 4px 0px" }}
+        whileTap={{ boxShadow: "inset rgb(0, 0, 0, 0.3) 0px 2px 4px 2px" }}
         variants={buttonVariants}
         initial={opened ? "open" : "collapsed"}
         animate={opened ? "open" : "collapsed"}

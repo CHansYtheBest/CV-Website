@@ -10,6 +10,10 @@
     "skills skills";
 }
 
+.greyText {
+  opacity: 0.5;
+}
+
 /* Education */
 
 .educationContent {
@@ -39,10 +43,6 @@
 
 .educationButtonInnerContainer p {
   margin: 0;
-}
-
-.educationButtonInnerContainer p:last-child {
-  opacity: 0.5;
 }
 
 /* Work Expirience */
@@ -93,7 +93,7 @@
 .skillsCard {
   position: relative;
   height: 100%;
-  border: 1px rgb(228, 228, 228) solid;
+  border: var(--lightBorder);
 }
 
 .skillsCardOuter:first-child .skillsCard {
@@ -135,6 +135,11 @@
 
 .skillsCardContainer {
   margin: 30px 20px 20px 20px;
+}
+
+.codingProgressText {
+  display: flex;
+  justify-content: space-between;
 }
 
 .codingProgressContainer p {
@@ -186,6 +191,7 @@
   width: 30px;
   height: 30px;
   min-width: 30px;
+  filter: var(--textColorFilter);
 }
 
 .animatedButton h3 {

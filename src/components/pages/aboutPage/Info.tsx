@@ -21,7 +21,7 @@ export default function Info() {
             <span>07 September 2002</span>
           </li>
           <li className={s.infoText}>
-            <span className={s.infoTextColored}>Langages</span>
+            <span className={s.infoTextColored}>Languages</span>
             <span className={s.infoTextColored}>:</span>
             <span>russian, english, romanian</span>
           </li>

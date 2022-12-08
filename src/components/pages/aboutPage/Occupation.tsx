@@ -20,9 +20,8 @@ export default function Occupation() {
               <Typography variant="h6" component="h3" style={{ margin: "5px auto" }}>
                 FrontEnd Development
               </Typography>
-              <Typography variant="body2" component="p">
-                Qualified graduate and emerging professional eager to build industry career. Quick learner with great people skills and focus on
-                problemsolving.
+              <Typography variant="body1" component="p">
+                Development of web applications of any complexity using the ReactJS framework. Experience in state management through Redux.
               </Typography>
             </CardContent>
           </Card>
@@ -32,9 +31,8 @@ export default function Occupation() {
               <Typography variant="h6" component="h3" style={{ margin: "5px auto" }}>
                 WordPress Development
               </Typography>
-              <Typography variant="body2" component="p">
-                Qualified graduate and emerging professional eager to build industry career. Quick learner with great people skills and focus on
-                problemsolving.
+              <Typography variant="body1" component="p">
+                Building websites and custom themes for WordPress with database connection and easy-to-use admin panel. Management of plugins and SEO.
               </Typography>
             </CardContent>
           </Card>
@@ -44,9 +42,8 @@ export default function Occupation() {
               <Typography variant="h6" component="h3" style={{ margin: "5px auto" }}>
                 UI/UX Design
               </Typography>
-              <Typography variant="body2" component="p">
-                Qualified graduate and emerging professional eager to build industry career. Quick learner with great people skills and focus on
-                problemsolving.
+              <Typography variant="body1" component="p">
+                Branding-compatible design of UI elements and full applications for any platform using tools like Figma.
               </Typography>
             </CardContent>
           </Card>
