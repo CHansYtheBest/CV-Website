@@ -53,7 +53,7 @@ export function WorkExperience() {
       <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }}>
         <SectionHeading className={s.workHeading}>Work Experience</SectionHeading>
         <WorkCollapsebleButton
-          title="Moskovskiy Zavod «Fizpribor»"
+          title="Moscow plant «FIZPRIBOR»"
           opened={opened}
           setOpened={setOpened}
           dividerHeights={dividerHeights}

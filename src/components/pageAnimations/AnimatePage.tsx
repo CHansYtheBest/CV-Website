@@ -6,7 +6,6 @@ import PageChangeAnimation from "./PageChangeAnimation";
 
 export default function AnimatePage(props: any) {
   let location = useLocation();
-  console.log(location);
 
   let { top, scrollElement } = useContext(ScrollContext);
 

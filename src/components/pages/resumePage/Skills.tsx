@@ -81,9 +81,11 @@ export function Skills() {
               <ul className={s.knowledgeList} style={{ listStyleImage: `url(${ListSVG})` }}>
                 <li>RESTful API interaction (AJAX)</li>
                 <li>Version Control Systems: Git, GitHub</li>
-                <li>Web Analytics Tools</li>
+                <li>ReactJS Experience</li>
                 <li>Linux Experience (DualBoot system)</li>
                 <li>Responsive and Adaptive Web Design </li>
+                <li>WordPress Experience </li>
+                <li>Quick Learning</li>
                 <li>Web Analytics Tools</li>
               </ul>
             </div>
