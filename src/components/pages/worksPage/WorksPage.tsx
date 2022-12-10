@@ -1,4 +1,4 @@
-import { Button, Card, CardContent, Link, Typography } from "@mui/material";
+import { Link, Typography } from "@mui/material";
 import React, { useContext, useState } from "react";
 import PageContainer from "../../pageComponents/PageContainer";
 import PageHeading from "../../pageComponents/PageHeading";
@@ -17,51 +17,9 @@ import ReactSocial2 from "../../../images/Reactsocial2.png";
 import Portfolio0 from "../../../images/Portfolio0.png";
 import Portfolio1 from "../../../images/Portfolio1.png";
 import s from "./WorksPage.module.css";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { ScrollContext } from "../../layout/ContentContainer";
-import { Modal } from "./Modal";
-
-interface WorksCardProps {
-  title: string;
-  img: string;
-  description: string;
-  children?: React.ReactNode;
-  open: false | number;
-  index: number;
-  setOpen: (opened: number | false) => void;
-}
-
-function WorksCard(props: WorksCardProps) {
-  return (
-    <>
-      <Card className={s.card}>
-        <AnimatePresence initial={false}>
-          {props.index === props.open && (
-            <Modal open={props.open} setOpen={props.setOpen}>
-              {props.children}
-            </Modal>
-          )}
-        </AnimatePresence>
-        <CardContent className={s.worksCard}>
-          <img src={props.img} alt="work" />
-          <div className={s.worksCardContainer}>
-            <h3>{props.title}</h3>
-            <p>{props.description}</p>
-            <Button
-              onClick={() => {
-                props.setOpen(props.index);
-              }}
-              className={s.worksCardButton}
-              variant="contained"
-            >
-              Read more
-            </Button>
-          </div>
-        </CardContent>
-      </Card>
-    </>
-  );
-}
+import { WorksCard } from "./WorksCard";
 
 function WorksPage() {
   const [modelOpen, setModelOpen] = useState<false | number>(false);

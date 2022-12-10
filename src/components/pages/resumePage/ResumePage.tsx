@@ -9,7 +9,7 @@ import { Skills } from "./Skills";
 function ResumePage() {
   return (
     <PageContainer className={s.resumePageGrid}>
-      <PageHeading>About page</PageHeading>
+      <PageHeading>Resume page</PageHeading>
       <Education />
       <WorkExperience />
       <Skills />

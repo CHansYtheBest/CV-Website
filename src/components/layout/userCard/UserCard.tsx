@@ -1,4 +1,4 @@
-import { Avatar, Typography } from "@mui/material";
+import { Avatar, Button, Typography } from "@mui/material";
 import React from "react";
 import s from "./UserCard.module.css";
 import { Container } from "@mui/system";

@@ -74,3 +74,10 @@
   filter: var(--accentFilter);
   object-fit: contain !important;
 }
+
+.downloadButton {
+  background-color: var(--accent) !important;
+  color: white !important;
+  width: fit-content;
+  margin: 15px 0 0 auto !important;
+}

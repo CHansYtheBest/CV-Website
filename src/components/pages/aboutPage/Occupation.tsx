@@ -1,4 +1,4 @@
-import { Avatar, Card, CardContent, Typography } from "@mui/material";
+import { Avatar, Button, Card, CardContent, Typography } from "@mui/material";
 import React from "react";
 import SectionContainer from "../../pageComponents/SectionContainer";
 import SectionHeading from "../../pageComponents/SectionHeading";
@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 export default function Occupation() {
   return (
     <SectionContainer className={s.whatIdoContainer} gridArea="whatIDo">
-      <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }}>
+      <motion.div style={{ display: "flex", flexDirection: "column" }} initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }}>
         <SectionHeading className={s.whatIdoHeding}>My occupation</SectionHeading>
         <div style={{ display: "flex" }}>
           <Card className={s.whatIdoCard}>
@@ -48,6 +48,14 @@ export default function Occupation() {
             </CardContent>
           </Card>
         </div>
+        <Button
+          href="https://drive.google.com/file/d/11LF304eOB_kn6SmMGVCNuwKG-O9aSmr6/view?usp=sharing"
+          target="_blank"
+          variant="contained"
+          className={s.downloadButton}
+        >
+          Download CV
+        </Button>
       </motion.div>
     </SectionContainer>
   );
