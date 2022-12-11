@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV-Website/static/css/main.4bb1ff2f.css",
-    "main.js": "/CV-Website/static/js/main.2eb41e64.js",
+    "main.css": "/CV-Website/static/css/main.901a73a8.css",
+    "main.js": "/CV-Website/static/js/main.5552e635.js",
     "static/js/787.749b4a44.chunk.js": "/CV-Website/static/js/787.749b4a44.chunk.js",
     "static/media/Foodquiz1.png": "/CV-Website/static/media/Foodquiz1.8345f6c24450ef2f613a.png",
     "static/media/Foodquiz0.png": "/CV-Website/static/media/Foodquiz0.a7c70d159602f8851497.png",
@@ -13,13 +13,13 @@
     "static/media/Portfolio0.png": "/CV-Website/static/media/Portfolio0.3d888826ea956bb95522.png",
     "static/media/Reactsocial2.png": "/CV-Website/static/media/Reactsocial2.5bbc69a6d640f256e4e9.png",
     "static/media/Fizpribor0.png": "/CV-Website/static/media/Fizpribor0.7ecfa009813b99759996.png",
+    "static/media/16415413461370.jpg": "/CV-Website/static/media/16415413461370.27834baa3c7c737f3edf.jpg",
     "static/media/Fizpribor1.png": "/CV-Website/static/media/Fizpribor1.5fea754ab46712447c4a.png",
     "static/media/roboto-all-500-normal.woff": "/CV-Website/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/CV-Website/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/CV-Website/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/roboto-all-300-normal.woff": "/CV-Website/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
     "static/media/Reactsocial1.png": "/CV-Website/static/media/Reactsocial1.b1b5560fce62a1339fbe.png",
-    "static/media/16415413461370.jpg": "/CV-Website/static/media/16415413461370.764a00cf7c7114aa7bc7.jpg",
     "static/media/roboto-latin-500-normal.woff2": "/CV-Website/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/CV-Website/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/CV-Website/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -68,12 +68,12 @@
     "static/media/WorksButton.svg": "/CV-Website/static/media/WorksButton.bdb93e46007458c65dd0e885fafd44ec.svg",
     "static/media/EmailOutline.svg": "/CV-Website/static/media/EmailOutline.f9fdb6fbfd848ea7be917d1d554d59fb.svg",
     "static/media/AboutButton.svg": "/CV-Website/static/media/AboutButton.891dd72d1212d59c53a132454323f339.svg",
-    "main.4bb1ff2f.css.map": "/CV-Website/static/css/main.4bb1ff2f.css.map",
-    "main.2eb41e64.js.map": "/CV-Website/static/js/main.2eb41e64.js.map",
+    "main.901a73a8.css.map": "/CV-Website/static/css/main.901a73a8.css.map",
+    "main.5552e635.js.map": "/CV-Website/static/js/main.5552e635.js.map",
     "787.749b4a44.chunk.js.map": "/CV-Website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bb1ff2f.css",
-    "static/js/main.2eb41e64.js"
+    "static/css/main.901a73a8.css",
+    "static/js/main.5552e635.js"
   ]
 }
