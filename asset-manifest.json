@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV-Website/static/css/main.e6acc9da.css",
-    "main.js": "/CV-Website/static/js/main.e43259b0.js",
+    "main.js": "/CV-Website/static/js/main.6ea3affc.js",
     "static/js/787.749b4a44.chunk.js": "/CV-Website/static/js/787.749b4a44.chunk.js",
     "static/media/Foodquiz1.png": "/CV-Website/static/media/Foodquiz1.8345f6c24450ef2f613a.png",
     "static/media/Foodquiz0.png": "/CV-Website/static/media/Foodquiz0.a7c70d159602f8851497.png",
@@ -69,11 +69,11 @@
     "static/media/EmailOutline.svg": "/CV-Website/static/media/EmailOutline.f9fdb6fbfd848ea7be917d1d554d59fb.svg",
     "static/media/AboutButton.svg": "/CV-Website/static/media/AboutButton.891dd72d1212d59c53a132454323f339.svg",
     "main.e6acc9da.css.map": "/CV-Website/static/css/main.e6acc9da.css.map",
-    "main.e43259b0.js.map": "/CV-Website/static/js/main.e43259b0.js.map",
+    "main.6ea3affc.js.map": "/CV-Website/static/js/main.6ea3affc.js.map",
     "787.749b4a44.chunk.js.map": "/CV-Website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6acc9da.css",
-    "static/js/main.e43259b0.js"
+    "static/js/main.6ea3affc.js"
   ]
 }
