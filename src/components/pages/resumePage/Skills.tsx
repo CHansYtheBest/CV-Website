@@ -34,7 +34,10 @@ function SkillsCard(props: SkillsCardProps) {
 export function Skills() {
   return (
     <SectionContainer gridArea="skills">
-      <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }}>
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+      >
         <SectionHeading>Skills</SectionHeading>
         <div className={s.skillsContainer}>
           <SkillsCard title="Coding" svg={CodeSVG}>
@@ -44,41 +47,64 @@ export function Skills() {
                   <p>HTML</p>
                   <p>96%</p>
                 </div>
-                <LinearProgress variant="determinate" value={96} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={96}
+                  color="inherit"
+                />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>CSS</p>
-                  <p>86%</p>
+                  <p>90%</p>
                 </div>
-                <LinearProgress variant="determinate" value={86} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={90}
+                  color="inherit"
+                />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>JavaScript</p>
                   <p>81%</p>
                 </div>
-                <LinearProgress variant="determinate" value={81} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={81}
+                  color="inherit"
+                />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>ReactJS</p>
-                  <p>73%</p>
+                  <p>55%</p>
                 </div>
-                <LinearProgress variant="determinate" value={73} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={55}
+                  color="inherit"
+                />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>WordPress</p>
-                  <p>62%</p>
+                  <p>73%</p>
                 </div>
-                <LinearProgress variant="determinate" value={62} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={73}
+                  color="inherit"
+                />
               </div>
             </Stack>
           </SkillsCard>
           <SkillsCard title="Knowledge" svg={SkillsSVG}>
             <div className={s.knowledgeListContainer}>
-              <ul className={s.knowledgeList} style={{ listStyleImage: `url(${ListSVG})` }}>
+              <ul
+                className={s.knowledgeList}
+                style={{ listStyleImage: `url(${ListSVG})` }}
+              >
                 <li>RESTful API interaction (AJAX)</li>
                 <li>Version Control Systems: Git, GitHub</li>
                 <li>ReactJS Experience</li>
@@ -97,28 +123,44 @@ export function Skills() {
                   <p>Russian</p>
                   <p>C2</p>
                 </div>
-                <LinearProgress variant="determinate" value={100} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={100}
+                  color="inherit"
+                />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>English</p>
                   <p>C1</p>
                 </div>
-                <LinearProgress variant="determinate" value={84} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={84}
+                  color="inherit"
+                />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>Romanian</p>
-                  <p>B2</p>
+                  <p>B1</p>
                 </div>
-                <LinearProgress variant="determinate" value={68} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={55}
+                  color="inherit"
+                />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>Ukrainian</p>
                   <p>A2</p>
                 </div>
-                <LinearProgress variant="determinate" value={36} color="inherit" />
+                <LinearProgress
+                  variant="determinate"
+                  value={36}
+                  color="inherit"
+                />
               </div>
             </Stack>
           </SkillsCard>
