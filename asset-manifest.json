@@ -1,25 +1,34 @@
 {
   "files": {
-    "main.css": "/CV-Website/static/css/main.e6acc9da.css",
-    "main.js": "/CV-Website/static/js/main.6ea3affc.js",
-    "static/js/787.749b4a44.chunk.js": "/CV-Website/static/js/787.749b4a44.chunk.js",
+    "main.css": "/CV-Website/static/css/main.d6ad61b1.css",
+    "main.js": "/CV-Website/static/js/main.475572f7.js",
+    "static/js/787.861fdc3f.chunk.js": "/CV-Website/static/js/787.861fdc3f.chunk.js",
     "static/media/Foodquiz1.png": "/CV-Website/static/media/Foodquiz1.8345f6c24450ef2f613a.png",
     "static/media/Foodquiz0.png": "/CV-Website/static/media/Foodquiz0.a7c70d159602f8851497.png",
     "static/media/Foodquiz2.png": "/CV-Website/static/media/Foodquiz2.5011b1d409d609a11e5f.png",
+    "static/media/DB1.png": "/CV-Website/static/media/DB1.8b653d7b311292811310.png",
     "static/media/Foodquiz3.png": "/CV-Website/static/media/Foodquiz3.8e8470d6ddcc23559c87.png",
     "static/media/Fizpribor2.png": "/CV-Website/static/media/Fizpribor2.281ee15d271a0c01e0e2.png",
+    "static/media/DB2.png": "/CV-Website/static/media/DB2.467c39c89cc535c4ac0e.png",
+    "static/media/DB0.png": "/CV-Website/static/media/DB0.982faaa7775a92b7d5b4.png",
+    "static/media/Elan1.png": "/CV-Website/static/media/Elan1.96d465a2d2098c02ff36.png",
+    "static/media/MBT0.png": "/CV-Website/static/media/MBT0.49455bb5cc9505929471.png",
+    "static/media/DB3.png": "/CV-Website/static/media/DB3.b1bb1d0eec7517d27240.png",
+    "static/media/MBT1.png": "/CV-Website/static/media/MBT1.ec205208e73292497db2.png",
     "static/media/Reactsocial0.png": "/CV-Website/static/media/Reactsocial0.edb8a109c1f0e6921582.png",
+    "static/media/Elan0.png": "/CV-Website/static/media/Elan0.d38f3891b7d9a66266d0.png",
     "static/media/Portfolio1.png": "/CV-Website/static/media/Portfolio1.6eb0cdad377e77bf740f.png",
     "static/media/Portfolio0.png": "/CV-Website/static/media/Portfolio0.3d888826ea956bb95522.png",
     "static/media/Reactsocial2.png": "/CV-Website/static/media/Reactsocial2.5bbc69a6d640f256e4e9.png",
     "static/media/Fizpribor0.png": "/CV-Website/static/media/Fizpribor0.7ecfa009813b99759996.png",
-    "static/media/16415413461370.jpg": "/CV-Website/static/media/16415413461370.27834baa3c7c737f3edf.jpg",
     "static/media/Fizpribor1.png": "/CV-Website/static/media/Fizpribor1.5fea754ab46712447c4a.png",
     "static/media/roboto-all-500-normal.woff": "/CV-Website/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/CV-Website/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/CV-Website/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/roboto-all-300-normal.woff": "/CV-Website/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
+    "static/media/Elan2.png": "/CV-Website/static/media/Elan2.b5b2e1cd899443b17c6b.png",
     "static/media/Reactsocial1.png": "/CV-Website/static/media/Reactsocial1.b1b5560fce62a1339fbe.png",
+    "static/media/16415413461370.jpg": "/CV-Website/static/media/16415413461370.764a00cf7c7114aa7bc7.jpg",
     "static/media/roboto-latin-500-normal.woff2": "/CV-Website/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/CV-Website/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/CV-Website/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -68,12 +77,12 @@
     "static/media/WorksButton.svg": "/CV-Website/static/media/WorksButton.bdb93e46007458c65dd0e885fafd44ec.svg",
     "static/media/EmailOutline.svg": "/CV-Website/static/media/EmailOutline.f9fdb6fbfd848ea7be917d1d554d59fb.svg",
     "static/media/AboutButton.svg": "/CV-Website/static/media/AboutButton.891dd72d1212d59c53a132454323f339.svg",
-    "main.e6acc9da.css.map": "/CV-Website/static/css/main.e6acc9da.css.map",
-    "main.6ea3affc.js.map": "/CV-Website/static/js/main.6ea3affc.js.map",
-    "787.749b4a44.chunk.js.map": "/CV-Website/static/js/787.749b4a44.chunk.js.map"
+    "main.d6ad61b1.css.map": "/CV-Website/static/css/main.d6ad61b1.css.map",
+    "main.475572f7.js.map": "/CV-Website/static/js/main.475572f7.js.map",
+    "787.861fdc3f.chunk.js.map": "/CV-Website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6acc9da.css",
-    "static/js/main.6ea3affc.js"
+    "static/css/main.d6ad61b1.css",
+    "static/js/main.475572f7.js"
   ]
 }
