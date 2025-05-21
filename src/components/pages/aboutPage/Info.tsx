@@ -7,7 +7,11 @@ import s from "./AboutPage.module.css";
 export default function Info() {
   return (
     <SectionContainer gridArea="aboutInfo">
-      <motion.div className={s.infoContainer} initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }}>
+      <motion.div
+        className={s.infoContainer}
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+      >
         <SectionHeading>About Info</SectionHeading>
         <ul className={s.infoTextContainer}>
           <li className={s.infoText}>
@@ -24,11 +28,6 @@ export default function Info() {
             <span className={s.infoTextColored}>Languages</span>
             <span className={s.infoTextColored}>:</span>
             <span>russian, english, romanian</span>
-          </li>
-          <li className={s.infoText}>
-            <span className={s.infoTextColored}>citizenships</span>
-            <span className={s.infoTextColored}>:</span>
-            <span>RUSSIAN, MOLDOVIAN, ROMANIAN</span>
           </li>
         </ul>
       </motion.div>

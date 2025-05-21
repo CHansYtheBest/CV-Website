@@ -56,11 +56,33 @@ export function Skills() {
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>CSS</p>
+                  <p>95%</p>
+                </div>
+                <LinearProgress
+                  variant="determinate"
+                  value={90}
+                  color="inherit"
+                />
+              </div>
+              <div className={s.codingProgressContainer}>
+                <div className={s.codingProgressText}>
+                  <p>PHP</p>
                   <p>90%</p>
                 </div>
                 <LinearProgress
                   variant="determinate"
                   value={90}
+                  color="inherit"
+                />
+              </div>
+              <div className={s.codingProgressContainer}>
+                <div className={s.codingProgressText}>
+                  <p>WordPress</p>
+                  <p>89%</p>
+                </div>
+                <LinearProgress
+                  variant="determinate"
+                  value={89}
                   color="inherit"
                 />
               </div>
@@ -83,17 +105,6 @@ export function Skills() {
                 <LinearProgress
                   variant="determinate"
                   value={55}
-                  color="inherit"
-                />
-              </div>
-              <div className={s.codingProgressContainer}>
-                <div className={s.codingProgressText}>
-                  <p>WordPress</p>
-                  <p>73%</p>
-                </div>
-                <LinearProgress
-                  variant="determinate"
-                  value={73}
                   color="inherit"
                 />
               </div>
@@ -136,29 +147,29 @@ export function Skills() {
                 </div>
                 <LinearProgress
                   variant="determinate"
-                  value={84}
+                  value={83}
                   color="inherit"
                 />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>Romanian</p>
-                  <p>B1</p>
+                  <p>B2</p>
                 </div>
                 <LinearProgress
                   variant="determinate"
-                  value={55}
+                  value={66.4}
                   color="inherit"
                 />
               </div>
               <div className={s.codingProgressContainer}>
                 <div className={s.codingProgressText}>
                   <p>Ukrainian</p>
-                  <p>A2</p>
+                  <p>B1</p>
                 </div>
                 <LinearProgress
                   variant="determinate"
-                  value={36}
+                  value={49.8}
                   color="inherit"
                 />
               </div>

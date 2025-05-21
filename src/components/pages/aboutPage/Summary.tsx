@@ -8,13 +8,20 @@ import s from "./AboutPage.module.css";
 export default function SummaryComponent() {
   return (
     <SectionContainer gridArea="summary">
-      <motion.div className={s.summaryContainer} initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }}>
+      <motion.div
+        className={s.summaryContainer}
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+      >
         <SectionHeading>Summary</SectionHeading>
         <div className={s.summaryTextContainer}>
           <Typography variant="body1" component="p">
-            Qualified graduate and emerging professional with a bit of work experience eager to build industry career. Quick learner with great people
-            skills and focus on problemsolving. Handles complex assignments without complaint and works great under pressure. Happy to spend many
-            hours coding and learning.
+            Skilled and driven web developer with nearly three years of diverse
+            experience across two companies, specializing in front-end
+            development. I possess a solid foundation in web technologies
+            including HTML, CSS, JavaScript, WordPress, and React. Proven
+            ability to deliver robust, scalable web solutions through
+            collaboration with cross-functional teams.
           </Typography>
         </div>
       </motion.div>

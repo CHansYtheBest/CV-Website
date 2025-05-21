@@ -4,12 +4,12 @@ import s from "./TextSlotsAnimation.module.css";
 
 export default function TextSlotsAnimation() {
   const [stacksArr, setStacksArr] = useState([
-    "React Developer",
+    "Frontend Developer",
     "WordPress Dev",
-    "UI/UX Designer",
-    "React Developer",
+    "PHP Developer",
+    "Frontend Developer",
     "WordPress Dev",
-    "UI/UX Designer",
+    "PHP Developer",
   ]);
   const [spansArr, setSpansArr] = useState<any>([]);
   const controls = useAnimation();
@@ -23,14 +23,22 @@ export default function TextSlotsAnimation() {
     newStacksArr.pop();
     setStacksArr(newStacksArr);
     let newSpansArr: any[];
-    newSpansArr = React.Children.toArray(newStacksArr.map((spanText) => <span className={s.stackSpan}>{spanText}</span>));
+    newSpansArr = React.Children.toArray(
+      newStacksArr.map((spanText) => (
+        <span className={s.stackSpan}>{spanText}</span>
+      ))
+    );
     setSpansArr(newSpansArr);
     controls.start({ y: [0, 0, -150, -150] });
   };
 
   useEffect(() => {
     let newSpansArr: any[];
-    newSpansArr = React.Children.toArray(stacksArr.map((spanText) => <span className={s.stackSpan}>{spanText}</span>));
+    newSpansArr = React.Children.toArray(
+      stacksArr.map((spanText) => (
+        <span className={s.stackSpan}>{spanText}</span>
+      ))
+    );
     setSpansArr(newSpansArr);
   }, [stacksArr]);
 

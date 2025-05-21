@@ -50,7 +50,7 @@ function WorkCollapsebleButton(props: any) {
 
 export function WorkExperience() {
   const [opened, setOpened] = useState<false | number>(0);
-  const [dividerHeights, setDividerHeights] = useState<number[]>([0, 0]);
+  const [dividerHeights, setDividerHeights] = useState<number[]>([0, 0, 0]);
 
   return (
     <SectionContainer gridArea="workExperience">
@@ -85,7 +85,7 @@ export function WorkExperience() {
               compatibility.
             </li>
           </ul>
-          <p className={s.greyText}>DECEMBER 2022 - SEPTEMBER 2024</p>
+          <p className={s.greyText}>DECEMBER 2022 - MAY 2025</p>
           <p className={s.greyText}>CHISINAU, MOLDOVA</p>
         </WorkCollapsebleButton>
         <motion.div
@@ -134,7 +134,7 @@ export function WorkExperience() {
           animate={{
             height:
               opened === 1 || opened === false
-                ? `${dividerHeights[0]}px`
+                ? `${dividerHeights[1]}px`
                 : "0px",
           }}
           transition={{ ease: "easeOut" }}
@@ -159,13 +159,18 @@ export function WorkExperience() {
               moving.
             </li>
           </ul>
-          <p className={s.greyText}>MARCH 2022 - JUNE 2022</p>
+          <p className={s.greyText}>MARCH 2021 - JUNE 2021</p>
           <p className={s.greyText}>PODOLSK, RUSSIA</p>
         </WorkCollapsebleButton>
         <motion.div
           className={s.workDevider}
           style={{ width: 0 }}
-          animate={{ height: opened === 2 ? `${dividerHeights[1]}px` : "0px" }}
+          animate={{
+            height:
+              opened === 2 || opened === false
+                ? `${dividerHeights[2]}px`
+                : "0px",
+          }}
           transition={{ ease: "easeOut" }}
         >
           <Divider orientation="vertical" />

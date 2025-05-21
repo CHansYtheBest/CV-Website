@@ -10,17 +10,43 @@ import PhoneOutline from "../../../images/PhoneOutline.svg";
 export default function UserCard() {
   return (
     <section className={s.userCardContainer}>
-      <Container sx={{ flexDirection: "column", display: "flex", alignItems: "center", mt: "30px" }}>
-        <Avatar alt="Maxim Chibotaru" src={avatar} sx={{ width: "100px", height: "100px", border: "1px solid var(--innerBorder)" }} />
-        <Typography variant="h5" component="h1" sx={{ fontWeight: 500, textAlign: "center", mt: "10px" }}>
+      <Container
+        sx={{
+          flexDirection: "column",
+          display: "flex",
+          alignItems: "center",
+          mt: "30px",
+        }}
+      >
+        <Avatar
+          alt="Maxim Chibotaru"
+          src={avatar}
+          sx={{
+            width: "100px",
+            height: "100px",
+            border: "1px solid var(--innerBorder)",
+          }}
+        />
+        <Typography
+          variant="h5"
+          component="h1"
+          sx={{ fontWeight: 500, textAlign: "center", mt: "10px" }}
+        >
           Maxim Chibotaru
         </Typography>
         <TextSlotsAnimation />
       </Container>
-      <Container sx={{ flexDirection: "column", display: "flex", alignItems: "center", mt: "30px" }}>
+      <Container
+        sx={{
+          flexDirection: "column",
+          display: "flex",
+          alignItems: "center",
+          mt: "30px",
+        }}
+      >
         <div className={s.contactInfoContainer}>
           <span className={s.contactInfo}>
-            <img src={PhoneOutline} alt="" />: +3737832981
+            <img src={PhoneOutline} alt="" />: +37378263969
           </span>
           <span className={s.contactInfo}>
             <img src={EmailOutline} alt="" />: maks.chibotaru <br /> @gmail.com
